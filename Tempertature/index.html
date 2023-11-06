@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <div class="input-container">
+            <input type="number" id="inputTemp" placeholder="Enter temperature">
+            <select id="tempUnit">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+            </select>
+            <button onclick="convertTemperature()">Convert</button>
+        </div>
+        <p id="result"></p>
+        <div class="image-container">
+            <img id="seasonImage" src="/spring.jpg" alt="seasonImage">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
